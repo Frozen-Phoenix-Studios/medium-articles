@@ -1,0 +1,41 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/_UI/Credits/credits-popup-styles.uss?fileID=7433441132597879392&amp;guid=471c1c8c1f3cc4a4b8af568b1b5680ea&amp;type=3#credits-popup-styles" />
+    <ui:VisualElement name="Root" class="credits-root" style="flex-grow: 1;">
+        <ui:VisualElement name="Panel" class="credits-panel" style="flex-grow: 1;">
+            <ui:VisualElement name="TitleContainer" class="credits-title-container">
+                <ui:Label text="Special Thanks To" name="CreditsTitle_Label" style="-unity-text-align: middle-center;" />
+            </ui:VisualElement>
+            <ui:ScrollView name="CreditsScrollView" class="credits-scroll-view">
+                <ui:VisualElement name="Credit_Container" class="credits-credit-container" style="flex-grow: 1;">
+                    <ui:Label text="StumpyStrust" name="CreditName_Label" class="credits-credit-name-label" />
+                    <ui:Label text="Space Background from OpenGameArt.com: &quot;space1&quot;" name="CreditDescription_Label" class="credits-credit-description-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Credit_Container" class="credits-credit-container" style="flex-grow: 1;">
+                    <ui:Label text="Nia Mi" name="CreditName_Label" class="credits-credit-name-label" />
+                    <ui:Label text="Background music from OpenGameArt.com: &quot;Fun Background&quot;" name="CreditDescription_Label" class="credits-credit-description-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Credit_Container" class="credits-credit-container" style="flex-grow: 1;">
+                    <ui:Label text="Code Monkey" name="CreditName_Label" class="credits-credit-name-label" />
+                    <ui:Label text="Youtube Research: Unity UI ToolKit" name="CreditDescription_Label" class="credits-credit-description-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Credit_Container" class="credits-credit-container" style="flex-grow: 1;">
+                    <ui:Label text="git-amend" name="CreditName_Label" class="credits-credit-name-label" />
+                    <ui:Label text="Youtube Research: Unity UI ToolKit" name="CreditDescription_Label" class="credits-credit-description-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Credit_Container" class="credits-credit-container" style="flex-grow: 1;">
+                    <ui:Label text="Hj" name="CreditName_Label" class="credits-credit-name-label" />
+                    <ui:Label text="Youtube Research: Unity UI ToolKit" name="CreditDescription_Label" class="credits-credit-description-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Credit_Container" class="credits-credit-container" style="flex-grow: 1;">
+                    <ui:Label text="LlamAcademy" name="CreditName_Label" class="credits-credit-name-label" />
+                    <ui:Label text="Youtube Research: Unity UI ToolKit" name="CreditDescription_Label" class="credits-credit-description-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Credit_Container" class="credits-credit-container" style="flex-grow: 1;">
+                    <ui:Label text="Game Maker&apos;s Toolkit" name="CreditName_Label" class="credits-credit-name-label" />
+                    <ui:Label text="Youtube Research: Unity UI ToolKit" name="CreditDescription_Label" class="credits-credit-description-label" />
+                </ui:VisualElement>
+            </ui:ScrollView>
+            <ui:Button text="Close" name="Close_Button" class="credits-close-button" style="align-self: center; margin-top: 10px; margin-bottom: 10px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
