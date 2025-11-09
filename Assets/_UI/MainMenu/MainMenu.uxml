@@ -1,0 +1,16 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/_UI/MainMenu/main-menu-styles.uss?fileID=7433441132597879392&amp;guid=e8f3cac2dfb54e645a537a3640f701f9&amp;type=3#main-menu-styles" />
+    <ui:VisualElement name="Root" class="root" style="flex-grow: 1;">
+        <ui:VisualElement name="Background_Image" class="background-image" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_Resources/Art/space1.png?fileID=2800000&amp;guid=79b5adc95c13a514ab389fb34d469ef0&amp;type=3#space1&quot;);" />
+        <ui:VisualElement name="Panel" class="panel" style="flex-grow: 1;">
+            <ui:VisualElement name="TitleText_Container" class="title-text-container" style="flex-grow: 1;">
+                <ui:Label text="The Game" name="TitleText_Label" class="title-text-label" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Button_Container" class="button-container" style="flex-grow: 1;">
+                <ui:Button text="Play" name="Play_Button" class="main-menu-button" />
+                <ui:Button text="Settings" name="Settings_Button" class="main-menu-button" />
+                <ui:Button text="Credits" name="Credits_Button" class="main-menu-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

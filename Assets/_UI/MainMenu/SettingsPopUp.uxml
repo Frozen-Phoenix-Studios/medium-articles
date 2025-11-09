@@ -1,0 +1,11 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/_UI/MainMenu/settings-popup-styles.uss?fileID=7433441132597879392&amp;guid=464e419242f20724aa7487d02d63223b&amp;type=3#settings-popup-styles" />
+    <ui:VisualElement name="Root" class="settings-root" style="flex-grow: 1;">
+        <ui:VisualElement name="Panel" class="settings-panel" style="flex-grow: 1;">
+            <ui:Label text="Settings" name="SettingsText_Label" class="settings-label" />
+            <ui:Slider label="Volume" value="0.5" high-value="1" name="Volume_Slider" fill="true" class="settings-option" />
+            <ui:Toggle label="Mute" name="Mute_Toggle" class="settings-option" />
+            <ui:Button text="Ok" name="Ok_Button" class="settings-option settings-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
