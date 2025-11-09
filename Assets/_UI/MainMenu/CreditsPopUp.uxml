@@ -1,17 +1,69 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/_UI/MainMenu/credits-popup-styles.uss?fileID=7433441132597879392&amp;guid=86542bf49800f404aa4cfc367f5d2caa&amp;type=3#credits-popup-styles" />
-    <ui:VisualElement name="Root" class="credits-root">
-        <ui:VisualElement name="Panel" class="credits-panel">
+    <ui:VisualElement name="Root" class="credits-root" style="flex-grow: 1;">
+        <ui:VisualElement name="Panel" class="credits-panel" style="flex-grow: 1;">
             <ui:VisualElement name="TitleContainer" class="credits-title-container" style="flex-grow: 1;">
-                <ui:Label text="Label" name="CreditsTitle_Label" />
+                <ui:Label text="Label" />
             </ui:VisualElement>
-            <ui:ScrollView name="CreditsScrollView" class="credits-scroll-view">
+            <ui:ScrollView class="credits-scroll-view">
                 <ui:VisualElement name="Credit_Container" class="credits-credit-container" style="flex-grow: 1;">
-                    <ui:VisualElement name="CreditName_Label" class="credits-credit-name-label" style="flex-grow: 1;" />
+                    <ui:Label text="Artist" name="CreditName_Label" class="credits-credit-name-label" />
+                    <ui:Label text="Big shout out artists found online offering freebies Big shout out artists found online offering freebies Big shout out artists found online offering freebies Big shout out artists found online offering freebies " name="CreditDescription_Label" class="credits-credit-description-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Credit_Container" class="credits-credit-container" style="flex-grow: 1;">
+                    <ui:Label text="Label" name="CreditName_Label" class="credits-credit-name-label" />
+                    <ui:Label text="Big shout out artists found online offering freebies art and, music art and stuffBig shout out artists found online offering freebies art and, music art and stuffBig shout out artists found online offering freebies art and, music art and stuffBig shout out artists found online offering freebies art and, music art and stuffBig shout out artists found online offering freebies art and, music art and stuff" name="CreditDescription_Label" class="credits-credit-description-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Credit_Container" class="credits-credit-container" style="flex-grow: 1;">
+                    <ui:Label text="Label" name="CreditName_Label" class="credits-credit-name-label" />
+                    <ui:Label text="Label" name="CreditDescription_Label" class="credits-credit-description-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Credit_Container" class="credits-credit-container" style="flex-grow: 1;">
+                    <ui:Label text="Label" name="CreditName_Label" class="credits-credit-name-label" />
+                    <ui:Label text="Label" name="CreditDescription_Label" class="credits-credit-description-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Credit_Container" class="credits-credit-container" style="flex-grow: 1;">
+                    <ui:Label text="Label" name="CreditName_Label" class="credits-credit-name-label" />
+                    <ui:Label text="Label" name="CreditDescription_Label" class="credits-credit-description-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Credit_Container" class="credits-credit-container" style="flex-grow: 1;">
+                    <ui:Label text="Label" name="CreditName_Label" class="credits-credit-name-label" />
+                    <ui:Label text="Label" name="CreditDescription_Label" class="credits-credit-description-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Credit_Container" class="credits-credit-container" style="flex-grow: 1;">
+                    <ui:Label text="Label" name="CreditName_Label" class="credits-credit-name-label" />
+                    <ui:Label text="Label" name="CreditDescription_Label" class="credits-credit-description-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Credit_Container" class="credits-credit-container" style="flex-grow: 1;">
+                    <ui:Label text="Label" name="CreditName_Label" class="credits-credit-name-label" />
+                    <ui:Label text="Label" name="CreditDescription_Label" class="credits-credit-description-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Credit_Container" class="credits-credit-container" style="flex-grow: 1;">
+                    <ui:Label text="Label" name="CreditName_Label" class="credits-credit-name-label" />
+                    <ui:Label text="Label" name="CreditDescription_Label" class="credits-credit-description-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Credit_Container" class="credits-credit-container" style="flex-grow: 1;">
+                    <ui:Label text="Label" name="CreditName_Label" class="credits-credit-name-label" />
+                    <ui:Label text="Label" name="CreditDescription_Label" class="credits-credit-description-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Credit_Container" class="credits-credit-container" style="flex-grow: 1;">
+                    <ui:Label text="Label" name="CreditName_Label" class="credits-credit-name-label" />
+                    <ui:Label text="Label" name="CreditDescription_Label" class="credits-credit-description-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Credit_Container" class="credits-credit-container" style="flex-grow: 1;">
+                    <ui:Label text="Label" name="CreditName_Label" class="credits-credit-name-label" />
+                    <ui:Label text="Label" name="CreditDescription_Label" class="credits-credit-description-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Credit_Container" class="credits-credit-container" style="flex-grow: 1;">
+                    <ui:Label text="Label" name="CreditName_Label" class="credits-credit-name-label" />
+                    <ui:Label text="Label" name="CreditDescription_Label" class="credits-credit-description-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Credit_Container" class="credits-credit-container" style="flex-grow: 1;">
+                    <ui:Label text="Label" name="CreditName_Label" class="credits-credit-name-label" />
                     <ui:Label text="Label" name="CreditDescription_Label" class="credits-credit-description-label" />
                 </ui:VisualElement>
             </ui:ScrollView>
-            <ui:Button text="Button" name="Close_Button" class="credits-close-button" />
+            <ui:Button text="Button" class="credits-close-button" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>
