@@ -3,7 +3,7 @@
     <ui:VisualElement name="Root" class="settings-root" style="flex-grow: 1;">
         <ui:VisualElement name="Panel" class="settings-panel" style="flex-grow: 1;">
             <ui:Label text="Settings" name="SettingsTitle_Label" class="settings-label" />
-            <ui:Slider label="Volume" value="42" high-value="1" name="Volume_Slider" focusable="true" class="settings-option" />
+            <ui:Slider label="Volume" value="42" high-value="1" name="Volume_Slider" focusable="true" fill="true" class="settings-option" />
             <ui:Toggle label="Mute" name="Mute_Toggle" class="settings-option" />
             <ui:Button text="Ok" name="Ok_Button" class="settings-option settings-button" />
         </ui:VisualElement>

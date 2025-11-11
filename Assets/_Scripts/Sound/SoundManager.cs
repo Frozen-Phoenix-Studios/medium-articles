@@ -3,14 +3,14 @@ using UnityEngine;
 public class SoundManager : MonoBehaviour
 {
     private static SoundManager _instance;
-
+    
     public static SoundManager Instance
     {
         get
         {
             if (_instance == null)
             {
-                Debug.LogError("SoundManager is not initialized!");
+                Debug.LogError("SoundManager is null");
             }
             return _instance;
         }
@@ -25,9 +25,8 @@ public class SoundManager : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-
+        
         _instance = this;
-        DontDestroyOnLoad(gameObject);
         
         _audioSource = GetComponent<AudioSource>();
     }
