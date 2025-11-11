@@ -26,6 +26,7 @@
     font-size: 80px;
     height: 25%;
     max-height: 25%;
+    -unity-text-align: middle-center;
 }
 
 .credits-scroll-view {
@@ -66,6 +67,7 @@
     border-bottom-left-radius: 35px;
     font-size: 50px;
     background-color: rgb(0, 255, 141);
+    align-self: center;
 }
 
 .credits-close-button:hover {

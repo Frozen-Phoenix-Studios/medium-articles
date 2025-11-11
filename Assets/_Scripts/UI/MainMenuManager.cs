@@ -23,8 +23,11 @@ public class MainMenuManager : MonoBehaviour
         
         _settingsButton = _uiDocument.rootVisualElement.Q<Button>("Settings_Button");
         _settingsButton.RegisterCallback<ClickEvent>(ShowSettingsUI);
+        
+        _creditsButton = _uiDocument.rootVisualElement.Q<Button>("Credits_Button");
+        _creditsButton.RegisterCallback<ClickEvent>(ShowCreditsUI);
     }
-    
+
     private void LoadGameScene(ClickEvent evt)
     {
         SceneManager.LoadScene("Game");
@@ -33,5 +36,10 @@ public class MainMenuManager : MonoBehaviour
     private void ShowSettingsUI(ClickEvent evt)
     {
         SettingsUIManager.Instance.SetVisible();
+    }
+    
+    private void ShowCreditsUI(ClickEvent evt)
+    {
+        CreditsPopUpUIManager.Instance.SetVisible();
     }
 }

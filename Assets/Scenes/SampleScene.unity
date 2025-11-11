@@ -569,6 +569,7 @@ GameObject:
   m_Component:
   - component: {fileID: 764854233}
   - component: {fileID: 764854234}
+  - component: {fileID: 764854235}
   m_Layer: 0
   m_Name: CreditsPopUp_UI
   m_TagString: Untagged
@@ -614,6 +615,18 @@ MonoBehaviour:
   m_PivotReferenceSize: 0
   m_Pivot: 0
   m_WorldSpaceCollider: {fileID: 0}
+--- !u!114 &764854235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764854232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa5b9aaafde4ef146b8be3283c445b9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CreditsPopUpUIManager
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,7 +3,7 @@
     <ui:VisualElement name="Root" class="credits-root" style="flex-grow: 1;">
         <ui:VisualElement name="Panel" class="credits-panel" style="flex-grow: 1;">
             <ui:VisualElement name="TitleContainer" class="credits-title-container" style="flex-grow: 1;">
-                <ui:Label text="Label" />
+                <ui:Label text="Special Thanks To" />
             </ui:VisualElement>
             <ui:ScrollView class="credits-scroll-view">
                 <ui:VisualElement name="Credit_Container" class="credits-credit-container" style="flex-grow: 1;">
@@ -63,7 +63,7 @@
                     <ui:Label text="Label" name="CreditDescription_Label" class="credits-credit-description-label" />
                 </ui:VisualElement>
             </ui:ScrollView>
-            <ui:Button text="Button" class="credits-close-button" />
+            <ui:Button text="Close" name="Close_Button" class="credits-close-button" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>
